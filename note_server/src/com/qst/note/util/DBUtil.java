@@ -1,10 +1,12 @@
 package com.qst.note.util;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.Statement;
+import java.sql.Statement;
+
+
 
 //数据库工具类DBUtil
 public class DBUtil {

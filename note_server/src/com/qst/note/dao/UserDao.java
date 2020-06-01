@@ -1,13 +1,11 @@
 package com.qst.note.dao;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.PreparedStatement;
 import com.qst.note.bean.UserBean;
 import com.qst.note.util.DBUtil;
-
-import sun.security.pkcs11.Secmod.DbMode;
 
 public class UserDao {
 	

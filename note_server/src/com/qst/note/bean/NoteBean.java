@@ -6,7 +6,7 @@ public class NoteBean {
 	private int id;
 	private String title;
 	private String content;
-	private String creatTime;
+	private String createTime;
 	private String updateTime;
 	private String noteTime;
 	private int userId;
@@ -29,11 +29,11 @@ public class NoteBean {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	public String getCreatTime() {
-		return creatTime;
+	public String getCreateTime() {
+		return createTime;
 	}
-	public void setCreatTime(String creatTime) {
-		this.creatTime = creatTime;
+	public void setCreateTime(String createTime) {
+		this.createTime = createTime;
 	}
 	public String getUpdateTime() {
 		return updateTime;

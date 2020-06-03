@@ -6,7 +6,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import com.google.gson.Gson;
 import com.qst.note.dao.NoteDao;
 import com.qst.note.result.Result;
@@ -32,7 +31,7 @@ public class InsertNoteServlet extends HttpServlet {
 		String noteTime=request.getParameter("noteTime");    
 		
 		NoteDao dao=new NoteDao();    //dao类
-		Gson gson=new Gson();    //gsom解析类，用于将结果解析成JSON数据返回客户端
+		Gson gson = new Gson();    //Gson解析类，用于将结果解析成JSON数据返回客户端
 		Result result=new Result();    //请求结果类
 		
 		//插入一条数据，并将结果保存到结果result对象中
